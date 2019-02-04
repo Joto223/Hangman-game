@@ -1,0 +1,38 @@
+body{
+  font-size: 40px;
+  background: black;
+  color: white;
+  font-family: cursive;
+}
+header{
+  text-align: center;
+  font-family: fantasy;
+  font-size: 45px;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+.title{
+background-image:url("https://imgur.com/DX6CcUt.jpg");
+background-size: cover;
+height: 500px;
+width: 500;
+justify-content: center;
+}
+.headTxt{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#startGame:active{
+  opacity: 0;
+}
+#startGame:hover{
+  color: white;
+  background-color: black;
+}
+section{
+  font-size: 19px;
+  letter-spacing: 3px;
+  display: none;
+}
