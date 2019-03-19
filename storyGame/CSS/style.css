@@ -1,5 +1,4 @@
 body{
-  font-size: 40px;
   background: black;
   color: white;
   font-family: cursive;
@@ -15,7 +14,6 @@ header{
 background-image:url("https://imgur.com/DX6CcUt.jpg");
 background-size: cover;
 height: 500px;
-width: 500;
 justify-content: center;
 }
 .headTxt{
@@ -24,15 +22,15 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 }
-#startGame:active{
-  opacity: 0;
-}
-#startGame:hover{
+a{
+  font-size: 20px;
   color: white;
-  background-color: black;
-}
-section{
+ }
+ span {
   font-size: 19px;
   letter-spacing: 3px;
-  display: none;
+  opacity: 0;
+}
+  span:hover{
+  opacity: 1;
 }

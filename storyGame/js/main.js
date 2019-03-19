@@ -19,13 +19,9 @@ function fade(){
   let head = document.getElementsByClassName('title');
   head.style.display = 'none';
 }
-function game(){
-// - transition into the first part of the game
-alert('starting game...');
-document.getElementById('gameTxt').innerHTML = "The persistent patter of rain muffles the crunch of gravel as Vega traverses the outskirts of the city."
-}
-// function introDisplay() {
-//   if(prologue.style.display === "block"){
-//     intro.style.background =
-//   }
-// }
+$(document).ready(function() {
+    $(".box").hover(function(){
+        var ind = $(this).text();
+        $("h1").css("display", "block");
+    });
+});
